@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+* {
+    font-family: 'Diphylleia', serif;
+}
+
+body {
+    background: linear-gradient(
+        115deg,
+        rgb(12, 70, 77) 10%,
+        rgba(38, 2, 68, 1) 90%
+    );
+    /* background-color: #fefefe; */
+}
+.outer-div {
+    margin: auto;
+    width: 70%;
+    min-height: 95vh;
+    max-width: 70rem;
+}
+.vertical-line {
+    border-right: 2px solid cyan;
+}
+
+.date {
+    font-size: 15px;
+    margin-left: -6;
+    margin-bottom: -1px !important;
+}
