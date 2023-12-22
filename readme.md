@@ -23,14 +23,14 @@ This is a simple TodoList web application built using TypeScript, Bootstrap, HTM
 
 ## Getting Started
 
-<a>see live web app here</a>
+<a href="https://smh-kneonix.github.io/simple-typescript-todolist/">see live web app here</a>
 
 ### Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/smh-kneonix/simple-typescript-todolist
+git clone https://github.com/smh-kneonix/simple-typescript-todolist.git
 ```
 
 2. Install dependencies:
