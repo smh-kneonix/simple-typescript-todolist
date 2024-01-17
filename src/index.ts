@@ -82,6 +82,7 @@ function createTodoFront(todo: Todo): void {
     const deadTime = document.createElement("p");
     deadTime.classList.add("text-secondary", "date");
     deadTime.append(`${dateValue?.toString().replaceAll("-","/")}`);
+    date.value = ""
 
     //close button
     const btnClose = document.createElement("i");

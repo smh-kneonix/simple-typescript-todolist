@@ -52,6 +52,7 @@ function createTodoFront(todo) {
     const deadTime = document.createElement("p");
     deadTime.classList.add("text-secondary", "date");
     deadTime.append(`${dateValue?.toString().replaceAll("-", "/")}`);
+    date.value = "";
     //close button
     const btnClose = document.createElement("i");
     btnClose.classList.add("bi", "bi-x-lg", "text-light");
